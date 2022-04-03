@@ -113,7 +113,7 @@
 #div14{
     height: 100%;
 }
-.float{
+.float1{
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -123,7 +123,7 @@
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	/* box-shadow: 2px 2px 3px #999; */
     z-index: 100;
 }
 #ico{
@@ -142,9 +142,7 @@
     border-radius: 50px;
 }
 /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5); */
-#btn{
-    margin-left: 125px;
-}
+
 #exampleModalLabel{
     font-family: 'Bree Serif', serif;
     text-align: center;
@@ -169,6 +167,13 @@
     font-family: 'Bree Serif', serif;
     font-size: 15px;
     color: #165633;
+}
+.in{
+    border-width: 0;
+    border: 0;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 #a__{
     font-family: 'Bree Serif', serif;
